@@ -1,8 +1,16 @@
 {
+  "scripts": {
+    "start": "nodemon --watch 'src/**' --ext 'ts' --exec 'ts-node -T src/index.ts'",
+    "format": "prettier . --write"
+  },
   "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "grammy": "^1.27.0"
+    "grammy": "^1.27.0",
+    "dotenv": "16.4.5"
   }
 }
