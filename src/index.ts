@@ -4,7 +4,7 @@ import "dotenv/config";
 const bot = new Bot(process.env.BOT_TOKEN!);
 
 (async () => {
-  bot.command("Start", (ctx) => ctx.reply("Bari Ereko Miqayel."));
+  bot.command("start", (ctx) => ctx.reply("Bari Ereko Mikayel."));
 
   await bot.start({
     drop_pending_updates: true,

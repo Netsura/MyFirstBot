@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon --watch 'src/**' --ext 'ts' --exec 'ts-node -T src/index.ts'",
+    "start": "nodemon --watch 'src/**' --ext 'ts' --exec './node_modules/.bin/ts-node -T src/index.ts'",
     "format": "prettier . --write"
   },
   "devDependencies": {
